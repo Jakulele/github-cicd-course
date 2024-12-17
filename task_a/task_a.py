@@ -1,9 +1,9 @@
 def square_area(a: int) -> int:
-    """Counts an area of of square."""
+    """Counts an area of of square"""
     return a*a
 
 def fib(n: int) -> int:
-    """Count a fibonacci number n."""
+    """Count a fibonacci number n"""
     a, b = 0, 1
     for _ in range(n):
         print(a, end=" ")
